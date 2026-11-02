@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:padding="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_1"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Generative AI and Autonomous Agents"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:text="Artificial intelligence in 2026 has become an integral part of our daily lives, moving far beyond simple text generation to fully autonomous digital agents. These intelligent systems manage complex workflows, analyze massive datasets, and execute real-time decision-making on behalf of users worldwide. Interaction with technology no longer relies on rigid traditional inputs, but rather on natural human-like conversation ."
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_2"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Quantum Computing and Scientific Breakthroughs"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:text="The year 2026 marks a historic leap in quantum computing as it transitions from experimental research labs directly into commercial utility. Superconducting quantum processors now solve mathematical calculations in seconds that previously required centuries for traditional supercomputers. This immense processing power has fundamentally revolutionized critical industries"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_3"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Next-Gen Connectivity and 6G Networks"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:text="Next-generation 6G communication networks dominate the technological landscape of 2026, delivering ultra-fast data transfer with near-zero latency. This robust digital infrastructure seamlessly supports the widespread deployment of fully autonomous vehicles, smart city grids, and interconnected IoT devices. Furthermore, the massive bandwidth enhancement provides flawless support for high-fidelity augmented and virtual reality environments"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:background="@color/box_4"
+            android:orientation="vertical"
+            android:gravity="top|center_horizontal"
+            android:paddingTop="12dp">
+
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cybersecurity and Digital Privacy Defense"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="8dp"
+                android:text="With society deeply reliant on interconnected cloud platforms and automated systems in 2026, cybersecurity has naturally taken center stage. Advanced defense mechanisms driven by predictive AI algorithms can now neutralize sophisticated cyber threats automatically before any system breach occurs. Concurrently, quantum-resistant encryption protocols are being actively integrated to safeguard sensitive corporate and government data against future vulnerabilities"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
